@@ -1,0 +1,20 @@
+{
+  "name": "mern-test",
+  "version": "1.0.0",
+  "description": "Test with express and mongo and axios",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:prod": "pm2 start app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "monitor": "pm2 list"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "logger": "^0.0.1",
+    "winston": "^3.13.1"
+  }
+}
